@@ -1,0 +1,67 @@
+.hero {
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 96px;
+    padding-left: 130px;
+    padding-bottom: 265px;
+    background-image:  url("../img/backcolor.png"),url("../img/cofe.png");
+    background-repeat:no-repeat ;
+    background-size: 1380px cover, 710px 696px ;
+    background-position:calc(50%) calc(0px),calc(50% + 365px) calc(50% + 33px) ;
+    background-color: #f1d2ad;
+    background-blend-mode: overlay, normal;
+}
+
+.hero::before{
+    position: absolute;
+    top: -65px;
+    left: calc(50% - 70px );
+    display: block;
+    width: 214px;
+    height: 214px;
+    background-image: url("../img/butfirst.png");
+    background-size: contain;
+    content: "";
+    
+}
+
+.hero__inner {
+    width: 447px;
+    text-align: left;
+    
+}
+
+.hero__heading {
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+}
+.hero__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.hero__link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    background-color: #0A775F;
+    border-radius: 100px;
+}

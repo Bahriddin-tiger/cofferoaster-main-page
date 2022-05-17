@@ -1,0 +1,139 @@
+.work {
+    position: relative;
+    padding: 50px 0;
+    background-color: #0A775F;
+    background-image: url("../img/backcolor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    background-blend-mode: overlay;
+    margin-bottom: 50px;
+}
+
+.work::before{
+    position: absolute;
+    top: 50px;
+    left: calc(50% + 400px);
+    display: block;
+    width: 192px;
+    height: 130px;
+    background-image: url("../img/coffe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(21.96deg);
+    content: "";
+}
+
+.work__title {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+
+}
+
+.work__box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-image: url("../img/line.png");
+    background-repeat: no-repeat;
+    background-size: 899px 2px;
+    background-position: 0 30px;
+}
+
+
+.work__span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    margin-right: 393px;
+    border: 4px solid #C99B67;
+}
+
+
+
+
+.work__list {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.work__item {
+    margin: 0;
+    padding: 0;
+    width: 433px;
+    margin-right: 40px;
+   background-color: #fff;
+}
+
+.work__item:nth-child(3){
+    margin-right: 0;
+}
+
+.work__namber {
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    font-variant: small-caps;
+    color: #333333;
+    opacity: 0.8;
+    margin-bottom: 45px;
+}
+
+.work__hiading {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    color: #333333;
+    text-align: left;
+}
+
+.work__text {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.work__link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px 24px;
+    width: 193px;
+    background-color: #C99B67;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ede3e3;
+    border-radius: 100px;
+   
+}

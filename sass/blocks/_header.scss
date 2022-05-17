@@ -1,0 +1,55 @@
+.header{
+    background-image: url("../img/backcolor.png") ;
+    background-repeat: no-repeat;
+    background-size: 1440px 800px ;
+    background-position: calc(50%) calc(0px);
+    padding: 45px 0;
+    background-color: #f1d2ad;
+    background-blend-mode: overlay;
+}
+
+.header__intro {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__link {
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.header__img {
+    width: 235px;
+    height: 24px;
+}
+
+
+
+.header__item{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.item__list {
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+
+
+.item__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+
